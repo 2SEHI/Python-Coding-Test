@@ -2,10 +2,13 @@
 import time
 start_time = time.time()
 
+
+
+
 ### 1. combinations사용
 # Memory Limit Exceeded
 class Solution:
-    def threeSum(self, nums):
+    def threeSum1(self, nums):
         from itertools import combinations
         # 3개의 수에 대한 조합리스트 저장
         nums_list = list(combinations(nums, 3))
@@ -25,10 +28,12 @@ if __name__ == '__main__':
     result = solution.threeSum(nums)
     print(result)
 
-# 2.3중 for문 이용
-# RTime Limit Exceeded
-class Solution:
-    def threeSum(self, nums: List[int]) -> List[List[int]]:
+
+
+
+    # 2.3중 for문 이용
+    # RTime Limit Exceeded
+    def threeSum2(self, nums: List[int]) -> List[List[int]]:
         result_list = set()
         for i in range(len(nums)):
             for j in range(i, len(nums)):
@@ -43,8 +48,26 @@ class Solution:
         return result_list
 
 
-class Solution:
-    def threeSum(self, nums: List[int]) -> List[List[int]]:
+
+
+
+    ## 2개 숫자의 합 x -1이 나머지 배열에 존재하면 3개의 숫자를 sort에 저장
+    ## Time Limit Exceeded 발생
+    def threeSum3(self, nums: List[int]) -> List[List[int]]:
+        result = set()
+        for i in range(len(nums)-2):
+            for j in range(i+1, len(nums)-1):
+                twosum = nums[i] + nums[j]
+                if twosum * -1 in nums[j+1:]:
+                    result.add(tuple(sorted([nums[i], nums[j], twosum * -1])))
+        return result
+
+
+
+
+
+    # 책의 해답
+    def threeSum4(self, nums: List[int]) -> List[List[int]]:
         results = []
         nums.sort()
         for i in range(len(nums) - 2):

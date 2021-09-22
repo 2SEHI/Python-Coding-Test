@@ -4,6 +4,7 @@
 📁programmers							# 💻프로그래머스
 ├───📃absolute.py						# level1 음양더하기
 ├───📃lotto.py							# level1 로또의 최고 순위와 최저 순위
+├───📃recomNewID.py						# level1 신규 아이디 추천
 ├───📃weekly1.py						# Weekly Challenge 1주차_부족한 금액 계산하기
 ├───📃weekly2.py						# Weekly Challenge 2주차_상호평가
 ├───📃weekly3.py						# Weekly Challenge 3주차_퍼즐조각채우기(미완성)
@@ -13,7 +14,7 @@
 📁python-algorithm-interview 					# 📘파이썬 알고리즘 인터뷰(💻leetcode)
 ├───📃2_AddTwoNumbers.py					# 8장 16번_두수의 덧셈
 ├───📃15_3sum.py						# 7장 09번_세 수의 합	
-├───📃23_MergeKSortedLists.py		# 10장 27번_k개 정렬 리스트 병합
+├───📃23_MergeKSortedLists.py					# 10장 27번_k개 정렬 리스트 병합
 ├───📃125_ValidPlindrome.py					# 6장 01번_유효한 팰린드롬
 ├───📃622_DesignCircularQueue.py				# 9장 25번_원형큐디자인
 └───📃641_DesignCircularDeque.py				# 10장 26번_원형데크디자인

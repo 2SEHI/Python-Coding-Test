@@ -5,6 +5,7 @@
 ├───📃absolute.py						# level1 음양더하기
 ├───📃lotto.py							# level1 로또의 최고 순위와 최저 순위
 ├───📃recomNewID.py						# level1 신규 아이디 추천
+├───📃StrToNum.py						# level1 숫자 문자열과 영단어
 ├───📃weekly1.py						# Weekly Challenge 1주차_부족한 금액 계산하기
 ├───📃weekly2.py						# Weekly Challenge 2주차_상호평가
 ├───📃weekly3.py						# Weekly Challenge 3주차_퍼즐조각채우기(미완성)

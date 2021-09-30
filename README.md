@@ -3,7 +3,8 @@
 ```
 📁programmers							# 💻프로그래머스
 ├───📃absolute.py						# level1 음양더하기
-├───📃compressSentence.py				# level2 문자열 압축(카카오 블라인드테스트)
+├───📃compressSentence.py				# level2 문자열 압축(2020 카카오 블라인드테스트)
+├───📃key_pad.py						# level1 키패드 누르기(2020 카카오 인턴쉽)
 ├───📃lotto.py							# level1 로또의 최고 순위와 최저 순위
 ├───📃recomNewID.py						# level1 신규 아이디 추천
 ├───📃StrToNum.py						# level1 숫자 문자열과 영단어

@@ -3,6 +3,7 @@
 ```
 📁programmers							# 💻프로그래머스
 ├───📃absolute.py						# level1 음양더하기
+├───📃clawCrane.py						# level1 인형뽑기(2019 카카오 인턴쉽)
 ├───📃compressSentence.py				# level2 문자열 압축(2020 카카오 블라인드테스트)
 ├───📃key_pad.py						# level1 키패드 누르기(2020 카카오 인턴쉽)
 ├───📃lotto.py							# level1 로또의 최고 순위와 최저 순위

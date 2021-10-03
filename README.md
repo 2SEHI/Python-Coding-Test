@@ -7,6 +7,7 @@
 ├───📃compressSentence.py				# level2 문자열 압축(2020 카카오 블라인드테스트)
 ├───📃key_pad.py						# level1 키패드 누르기(2020 카카오 인턴쉽)
 ├───📃lotto.py							# level1 로또의 최고 순위와 최저 순위
+├───📃openChat.py						# level2 오픈채팅방(2019 카카오 블라인드테스트)
 ├───📃recomNewID.py						# level1 신규 아이디 추천
 ├───📃StrToNum.py						# level1 숫자 문자열과 영단어
 ├───📃weekly1.py						# Weekly Challenge 1주차_부족한 금액 계산하기
